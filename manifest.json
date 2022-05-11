@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Better-CristalWeb",
+    "description": "Gives access to a number of themes that make cristalweb look more modern",
+    "version": "1.4",
+    "icons": {
+        "16": "images/Logo.png",
+        "32": "images/Logo.png",
+        "48": "images/Logo.png",
+        "128": "images/Logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["scripting", "activeTab", "commands", "storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/Logo.png",
+            "32": "images/Logo.png",
+            "48": "images/logo.png",
+            "128": "images/Logo.png"
+        }
+    },
+    "content_scripts": [{
+        "matches": ["https://cristalweb.farnborough.ac.uk/*", "https://cristalweb.farnborough.ac.uk/CristalWeb/*"],
+        "js": ["script.js"]
+    }],
+    "web_accessible_resources": [{
+        "resources": ["/assets/*", "/assets/images/*"],
+        "matches": ["<all_urls>"]
+    }]
+}

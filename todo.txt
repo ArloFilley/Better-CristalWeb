@@ -1,0 +1,13 @@
+-- Customisation --
+Custom styling for timetable
+Better buttons
+Better font colours //
+
+-- Where it's being used --
+Get external css //
+get Css running on all possible sub-pages //
+
+-- Variables --
+use variables to make customisation much faster //
+allow for user control over those variables
+create a popup to control css variables

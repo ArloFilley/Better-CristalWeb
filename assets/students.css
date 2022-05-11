@@ -1,0 +1,30 @@
+/* This area deals with the main content of the page */
+
+div#content th,
+.grid th {
+    background-color: var(--navbar-color);
+    border: var(--border);
+    color: var(--text-color);
+    padding: 4px 3px;
+    text-align: center;
+    vertical-align: top;
+}
+
+div#content {
+    border: var(--border);
+    padding: 0px;
+}
+
+.review-dial {
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 4px auto;
+}
+
+hr {
+    background-color: var(--navbar-color);
+    border: var(--border);
+    height: 0;
+    width: 100%;
+}

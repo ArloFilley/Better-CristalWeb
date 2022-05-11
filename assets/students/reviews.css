@@ -1,0 +1,106 @@
+    h2 {
+        text-align: center;
+        color: var(--text-color-1);
+    }
+    
+    div#content {
+        border: 0px;
+        color: var(--text-color-1);
+    }
+    
+    div#content th,
+    .grid th {
+        background-color: var(--review-table-top-color);
+        border: var(--border);
+        border-bottom: solid 1px black;
+        color: rgb(0, 0, 0);
+        padding: 4px 3px;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    table {
+        border: solid 1px black;
+    }
+    
+    th a:link,
+    th a:visited,
+    th a:active,
+    th a:hover,
+    th a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    th a[rel="tooltip"]:link,
+    th a[rel="tooltip"]:visited,
+    th a[rel="tooltip"]:active,
+    th a[rel="tooltip"]:hover,
+    th a[rel="tooltip"],
+    th a[rel="popover"].question:link,
+    th a[rel="popover"].question:visited,
+    th a[rel="popover"].question:active,
+    th a[rel="popover"].question:hover,
+    th a[rel="popover"].question {
+        text-decoration: none;
+        border-bottom: 0px;
+        cursor: default;
+    }
+    
+    table.grid tr {
+        border: 0px;
+        border-bottom: solid 1px black;
+        vertical-align: top;
+    }
+    
+    table.grid td {
+        border: 0px;
+        padding: 3px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        vertical-align: top;
+    }
+    
+    .reviews-grade-1 {
+        background-color: var(--great-color);
+        color: var(--text-color-1);
+    }
+    
+    .reviews-grade-2 {
+        background-color: var(--good-color);
+        color: var(--text-color-1);
+    }
+    
+    .reviews-grade-3 {
+        background-color: var(--mediocre-color);
+        color: var(--text-color-1);
+    }
+    
+    .reviews-grade-4 {
+        background-color: var(--bad-color);
+        color: var(--text-color-1);
+    }
+    
+    .reviews-attendance-high {
+        background-color: var(--great-color);
+        color: var(--text-color-1);
+    }
+    
+    .reviews-attendance-medium {
+        background-color: var(--mediocre-color);
+        color: var(--text-color-1);
+    }
+    
+    .reviews-attendance-low {
+        background-color: var(--bad-color);
+        color: var(--text-color-1);
+    }
+    
+    tr:hover {
+        background-color: rgba(255, 127, 80, 0.279);
+    }
+    
+    strong {
+        font-weight: bold;
+    }

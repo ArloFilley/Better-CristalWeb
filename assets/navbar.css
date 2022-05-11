@@ -1,0 +1,27 @@
+.navbar-inner {
+    background-color: var(--navbar-color);
+    border: var(--border);
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+    border: var(--border);
+}
+
+.navbar .badge {
+    background-color: var(--background-color-0);
+    border: var(--border);
+}
+
+.navbar .nav li.dropdown.open>.dropdown-toggle,
+.navbar .nav li.dropdown.active>.dropdown-toggle,
+.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    color: var(--text-color);
+    background-color: var(--navbar-color);
+    filter: none;
+}
+
+.navbar .divider-vertical {
+    height: 29px;
+    border-color: var(--navbar-dash-color);
+}

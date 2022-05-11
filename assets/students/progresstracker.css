@@ -1,0 +1,29 @@
+h3 {
+    color: var(--text-color);
+}
+
+table.grid td {
+    border: solid 1px #bebebe;
+    padding: 3px;
+    vertical-align: top;
+    color: black;
+}
+
+table.grid td {
+    border: var(--border);
+    padding: 3px;
+    vertical-align: top;
+    color: black;
+}
+
+div#content th,
+.grid th {
+    background-color: var(--background-color-3);
+    border: var(--border);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.tlog-praise {
+    background-color: var(--positive-color);
+}
