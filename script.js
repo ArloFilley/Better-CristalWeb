@@ -5,7 +5,9 @@ let realeased = 'Release candidate';
 let extensionName = 'Better-CristalWeb';
 let locations = document.location.href;
 let locate = locations.substring(48, locations.length).toLowerCase();
-let r = document.querySelector(':root');
+if (locate.charAt(locate.length - 1) === '?') {
+    locate = locate.substring(0, locate.length - 1);
+}
 
 loadStandard();
 setVariables();
@@ -64,7 +66,6 @@ function loadStandard() {
 }
 
 function setVariables() {
-    let navbarColor;
     chrome.storage.sync.get(['navbar', 'background', 'text'], function(value) {
         document.documentElement.style.setProperty('--navbar-color', value.navbar);
         document.documentElement.style.setProperty('--background-color-1', value.background);
