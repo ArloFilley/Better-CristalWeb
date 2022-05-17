@@ -66,10 +66,14 @@ function loadStandard() {
 }
 
 function setVariables() {
-    chrome.storage.sync.get(['navbar', 'background', 'text'], function(value) {
+    chrome.storage.sync.get(['navbar', 'background', 'text', 'positiveColor', 'goodColor', 'mediocreColor', 'badColor'], function(value) {
         document.documentElement.style.setProperty('--navbar-color', value.navbar);
         document.documentElement.style.setProperty('--background-color-1', value.background);
         document.documentElement.style.setProperty('--background-color-2', value.background);
         document.documentElement.style.setProperty('--text-color', value.text);
+        document.documentElement.style.setProperty('--great-color', value.positiveColor);
+        document.documentElement.style.setProperty('--good-color', value.goodColor);
+        document.documentElement.style.setProperty('--mediocre-color', value.mediocreColor);
+        document.documentElement.style.setProperty('--bad-color', value.badColor);
     });
 }

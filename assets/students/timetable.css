@@ -1,0 +1,70 @@
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+}
+
+tbody {
+    border: solid 1px #000000;
+}
+
+table.timetable tr {
+    border: solid 1px #000000;
+}
+
+table.timetable td {
+    vertical-align: top;
+    border: var(--border);
+    border-bottom: solid 1px #000000;
+    padding: 3px;
+    background-color: rgb(115, 180, 237);
+}
+
+table.timetable td:hover {
+    background-color: rgba(255, 127, 80, 0.279);
+}
+
+table.timetable td.periodtitle {
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.timetable td.blocka {
+    background-color: var(--block-a);
+}
+
+table.timetable td.blockb {
+    background-color: var(--block-b);
+}
+
+table.timetable td.blockc {
+    background-color: var(--block-c);
+}
+
+table.timetable td.blockd {
+    background-color: var(--block-d);
+}
+
+table.timetable td.blocke {
+    background-color: var(--block-e);
+}
+
+table.timetable td.blockf {
+    background-color: var(--block-f);
+}
+
+table.timetable td.blockg {
+    background-color: var(--block-g);
+}
+
+table.timetable td.blockh {
+    background-color: var(--block-h);
+}
+
+table.timetable td.blocki {
+    background-color: var(--block-i);
+}

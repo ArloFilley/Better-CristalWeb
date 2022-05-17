@@ -21,6 +21,16 @@
     --mediocre-color: #DBA40E;
     --bad-color: #DB1F48;
     --review-table-top-color: rgb(204, 78, 198);
+    /* Timetable */
+    --block-a: #1e9ffc;
+    --block-b: #fa9c30;
+    --block-c: #fffc55;
+    --block-d: #3cd9f9;
+    --block-e: #8e4dff;
+    --block-f: #ff5858;
+    --block-g: #a4a4a4;
+    --block-h: #757575;
+    --block-i: #757575;
 }
 
 @keyframes backdrop {
