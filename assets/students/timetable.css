@@ -11,6 +11,7 @@ table {
     border-spacing: 2px;
     max-width: 100%;
     text-align: center;
+    margin: 0px;
 }
 
 table.grid {

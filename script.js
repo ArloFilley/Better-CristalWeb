@@ -1,32 +1,18 @@
-let resources = 'chrome-extension:/gkcfokhfblkdchjfdjabegaiegodalnp/assets/';
-let head = document.getElementsByTagName('head');
-let version = 'v1.4';
-let realeased = 'Release candidate';
-let extensionName = 'Better-CristalWeb';
-let locations = document.location.href;
-let locate = locations.substring(48, locations.length).toLowerCase();
+const resources = 'chrome-extension:/gkcfokhfblkdchjfdjabegaiegodalnp/assets/';
+const head = document.getElementsByTagName('head');
+const version = 'v1.4';
+const realeased = 'Release candidate';
+const extensionName = 'Better-CristalWeb';
+const locations = document.location.href;
+const locate = locations.substring(48, locations.length).toLowerCase();
 if (locate.charAt(locate.length - 1) === '?') {
     locate = locate.substring(0, locate.length - 1);
 }
 
-loadStandard();
+loadCss();
 setVariables();
 
-if (locate === 'students') {
-    var reveiws = content.getElementsByClassName('wide');
-    var review = document.getElementsByTagName('th');
-    review[0].innerHTML = "<b>Reviews</b>";
-
-    var dials = content.getElementsByClassName('review-dial');
-    console.log(dials[0].innerHTML);
-
-} else if (locate = 'reveiws') {
-    var reveiws = content.getElementsByClassName('wide');
-    var review = document.getElementsByTagName('th');
-    review[0].innerHTML = "<b>Your Reviews</b>";
-}
-
-function loadStandard() {
+function loadCss() {
     let main = document.createElement('link');
     main.href = `${resources}main.css`;
     main.rel = "stylesheet";
