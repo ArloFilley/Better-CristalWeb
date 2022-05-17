@@ -1,16 +1,26 @@
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
 table {
     display: table;
-    border-collapse: separate;
+    border-collapse: collapse;
     box-sizing: border-box;
     text-indent: initial;
-    border-spacing: 0px;
+    border-spacing: 2px;
+    max-width: 100%;
+}
+
+table.grid {
+    border: 1px solid #000000;
 }
 
 tbody {
     border: solid 1px #000000;
 }
 
-table.timetable tr {
+table.grid tr {
     border: solid 1px #000000;
 }
 
@@ -20,10 +30,6 @@ table.timetable td {
     border-bottom: solid 1px #000000;
     padding: 3px;
     background-color: rgb(115, 180, 237);
-}
-
-table.timetable td:hover {
-    background-color: rgba(255, 127, 80, 0.279);
 }
 
 table.timetable td.periodtitle {
