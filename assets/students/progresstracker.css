@@ -16,14 +16,39 @@ table.grid td {
     color: black;
 }
 
+.btn {
+    background-color: var(--navbar-color);
+    background-image: none;
+    border: 1px black solid;
+    text-shadow: none;
+    box-shadow: none;
+    color: var(--text-color);
+}
+
 div#content th,
 .grid th {
-    background-color: var(--background-color-3);
+    background-color: var(--navbar-color);
     border: var(--border);
     color: var(--text-color);
     text-align: center;
 }
 
 .tlog-praise {
-    background-color: var(--positive-color);
+    background-color: var(--great-color);
+}
+
+table.grid {
+    border: 1px solid #000000;
+}
+
+thead {
+    border: 1px solid #000000;
+}
+
+table.grid tr {
+    border: 1px solid #000000;
+}
+
+table.grid tr:hover {
+    background-color: rgba(255, 179, 0, 0.395);
 }

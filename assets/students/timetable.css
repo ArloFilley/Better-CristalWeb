@@ -10,6 +10,7 @@ table {
     text-indent: initial;
     border-spacing: 2px;
     max-width: 100%;
+    text-align: center;
 }
 
 table.grid {
@@ -22,6 +23,10 @@ tbody {
 
 table.grid tr {
     border: solid 1px #000000;
+}
+
+table.timetable tr:hover {
+    background-color: #ff88006c;
 }
 
 table.timetable td {
